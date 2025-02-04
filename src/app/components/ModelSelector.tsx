@@ -1,3 +1,5 @@
+'use client';
+
 interface ModelSelectorProps {
   currentModel: "gpt-4" | "gpt-3.5-turbo";
   onModelChange: (model: "gpt-4" | "gpt-3.5-turbo") => void;

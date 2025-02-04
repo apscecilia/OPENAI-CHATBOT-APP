@@ -1,3 +1,5 @@
+'use client';
+
 import { Message } from "ai";
 import ReactMarkdown from "react-markdown";
 import { Copy } from "lucide-react";
